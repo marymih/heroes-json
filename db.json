@@ -1,9 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "heroes": [
+    {
+      "id": 1,
+      "name": "First hero",
+      "description": "Fire hero",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Second hero",
+      "description": "Wind hero",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Third hero",
+      "description": "Water hero",
+      "element": "water"
+    },
+    {
+      "id": "7c2ec769-08ce-45cc-b587-66f19ed64280",
+      "name": "Alex",
+      "description": "Human",
+      "element": "earth"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Wind",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
+  ]
 }
